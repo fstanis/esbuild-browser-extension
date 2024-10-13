@@ -1,0 +1,28 @@
+{
+  "name": "esbuild-browser-extension",
+  "version": "0.0.1",
+  "description": "Wrapper around esbuild that takes a browser extension manifest.json as input",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "esbuild",
+    "browser",
+    "extension"
+  ],
+  "author": {
+    "name": "Filip Stanis",
+    "url": "https://github.com/fstanis"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fstanis/esbuild-browser-extension.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.24.0",
+    "parse5": "^7.2.0"
+  }
+}
